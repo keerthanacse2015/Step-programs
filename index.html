@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>Add a New Movie</title> 
+       <link rel="stylesheet" href="style.css">
+    </head>
+    <header>
+        <img src="images/projector-logo.png">
+        <a href="#">ADD MOVIE</a>
+        <a href="#">HOME</a>
+    </header>
+    <body>
+        
+        <form class="add_form" id="add_form1">
+            <h2>Add a New Movie</h2>
+            <label for "movieName">Movie Name:</label>
+            <input type="text" name="movieName"/>
+            <label for "year">Release Year:</label>
+            <input type="number" name="year"/>
+            <div class="divide">
+            <label for "lang">Language:</label>
+            <select name="lang">
+                <option value="english">English</option>
+                <option value="tamil">Tamil</option>
+                <option value="malayalam">Malayalam</option>
+                <option value="hindi">Hindi</option>
+            </select>
+        </div>
+        <div class="divide">
+            <label for "rating">Rating:</label>
+            <select name="rating">
+                <option value="one">1</option>
+                <option value="two">2</option>
+                <option value="three">3</option>
+                <option value="four">4</option>
+                <option value="five">5</option>
+            </select>
+        </div>
+            <label for "thumbnail">Thumbnail URL:</label>
+            <input type="url" name="thumbnail"/>
+            <label for "plot">Plot:</label>
+            <textarea rows="4" name="plot"></textarea>
+            <label for "posterUrl">Poster URL:</label>
+            <input type="url" name="posterUrl"/>
+            <label for "cast">Cast:</label> 
+            <textarea rows="5" name="cast"></textarea>
+            <input type="submit" value="Save"/>
+        </form>
+    </body>
+</html>  

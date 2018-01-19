@@ -1,0 +1,74 @@
+body{
+    background-color: #442d4b;
+    color:#ffff;
+}
+header img
+{
+    display:inline;
+    height:35px;
+    width:150px;
+    padding:8px 15px 5px 15px;
+}
+header a{
+    text-decoration:none;
+    color:orange;
+    float:right;
+    padding:8px 15px 5px 15px;
+
+}
+.add_form
+{
+    width:500px;
+    margin:20px auto;
+}
+.add_form input, .add_form textarea, .add_form select
+{
+    width:100%;
+    display:block;
+    box-sizing:border-box;
+    background-color:#442D4B;
+    padding:0 5px;
+    font-family:inherit;
+    font-size:1.2rem;
+    border:1PX SOLID WHITE;
+    margin:7px 0 15px;
+    color:inherit;
+}
+.add_form h2
+{
+    text-align:center;
+    margin:20px 0;
+    font-weight:normal;
+    font-size:1.8rem;
+}
+.add_form label{
+    font-size:0.9rem;
+}
+.add_form select{
+    background:url("images/downarrow.png") no-repeat right;
+    background-position-x:98%;
+    background-position-y:45%;
+    background-size:12px;
+    height:45px;
+    overflow:hidden;
+    border-radius:0;
+    outline:none;
+    background-color:#442D4B;
+}
+.add_form .divide{
+    width:48%;
+    display:inline-block;
+    box-sizing:border-box;
+    padding-left:10px;
+}
+.add_form input[type=submit]{
+    width:100px;
+    height:40px;
+    margin:0 auto;
+    background-color:orange;
+    border:none;
+    color:white;
+    font-size:.9rem;
+    border-radius:0;
+
+}
